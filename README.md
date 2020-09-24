@@ -1,5 +1,7 @@
 # Facebook Clone - Vue.js Vuetify.js
 
+Developed a Facebook Clone using Nuxt.js and Vuetify, deployed with Firebase Hosting. https://test-9399a.web.app/
+
 ## Build Setup
 
 ```bash
