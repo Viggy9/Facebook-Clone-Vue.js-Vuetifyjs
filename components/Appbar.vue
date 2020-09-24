@@ -1,7 +1,7 @@
 <template>
   <v-app-bar dense clipped-left clipped-right color="#4267b2" dark app>
     <v-btn text><v-icon>mdi-facebook</v-icon></v-btn>
-    <v-text-field append-icon="mdi-account-search" class="mt-8" label="Search" solo light></v-text-field>
+    <v-text-field append-icon="mdi-account-search" class="mt-6" label="Search" solo light dense></v-text-field>
     <v-spacer></v-spacer>
     <v-toolbar-items>
       <v-btn text class="text-none font-weight-bold">
@@ -31,12 +31,3 @@
 export default {};
 </script>
 
-<style>
-.v-text-field.v-text-field--solo .v-input__control {
-  min-height: 22px;
-}
-.v-text-field.v-text-field--solo .v-input__append-inner,
-.v-text-field.v-text-field--solo .v-input__prepend-inner {
-  margin-bottom: 5px;
-}
-</style>
